@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
+import { Logo, LogoExtended, TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
@@ -10,16 +10,21 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='Talentech' caption='' className='logobg' />
+              <Link href='/'>
+              <LogoExtended/>
+              </Link>
               <br />
               <span>
-                Questions? Reach us <br /> Sunday – Thursday from 9 am to 6 pm
+                Questions? Contacter Nous <br /> Dimanche – Jeudi de 9 am to 6 pm
               </span>
               <br />
               <br />
               <h3>+213 797 78 31 80</h3>
               <br />
-              <button className='button-primary'>Demander une consultation</button>
+              <Link href='/contact'>
+                <button className='button-primary'>Demander une consultation</button>
+              </Link>
+             
             </div>
             <ul>
               <h3>COMPANY</h3>

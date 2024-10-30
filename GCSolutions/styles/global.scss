@@ -13,7 +13,7 @@
     left: -40%;
     width: 180%;
     height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
+    background-image: url("../assets/images/art-top-cropp.svg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -127,6 +127,11 @@
 
 //brand
 .brand-content {
+  display: flex;
+  overflow: hidden;
+  animation: slide 40s linear infinite;
+  gap: 5rem; 
+
   img {
     opacity: 0.5;
     transition: 0.5s ease-in-out;
@@ -136,6 +141,7 @@
     }
   }
 }
+
 
 //blog-card
 .blog-card {

@@ -6,43 +6,43 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "25+ ans d'expérience dans le froid commercial, industriel, et la climatisation",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Foid et Climatisation en Algérie",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ formations et services de qualité",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "Satisfaction du client est notre top priorité",
   },
 ]
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Formation Professionelle & Formateur",
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Service d'installation",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Audition de chambre froide",
     cover: "../images/e3.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Bureau d'étude & Conception",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
@@ -80,72 +80,60 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "Formation Professionelle & Formateur",
     cover: "../images/s1.jpg",
     catgeory: "DIGITAL MARKETING",
+    link: "/formation",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
+    title: "Inatalltion Chambre Froide",
     catgeory: "WEBSITES",
     cover: "../images/s2.jpg",
+    link: "/installation",
   },
   {
     id: 3,
-    title: "Smart Living",
+    title: "Consultation & Audit",
     cover: "../images/s3.jpg",
     catgeory: "WEBSITES",
+    link: "/audit",
   },
   {
     id: 4,
-    title: "Light Painting",
+    title: "Partenariat",
     cover: "../images/s4.jpg",
     catgeory: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
-  },
-  {
-    id: 5,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    link: "/partenariat",
   },
 ]
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/l1.png",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/l2.png",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/l3.png",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/l4.png",
   },
   {
     id: 5,
-    cover: "../images/l5.svg",
-  },
-  {
-    id: 6,
-    cover: "../images/l6.svg",
+    cover: "../images/l5.png",
   },
 ]
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
+    title: "EXCEL Confenrence - Algeria",
+    cover: "../images/b1.png",
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
     content1: "YESSSSSSSS",
@@ -153,28 +141,10 @@ export const blogdata = [
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
+    title: "Tech SUMMIT for Industry",
+    cover: "../images/b2.png",
+    catgeory: "Dubai, Abu Dhabi, For a greater Future",
     date: "OCTOBER 20, 2023",
-    content: "YESSSSSSSS",
-    content2: "YESSSSSSSS",
-  },
-  {
-    id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-    content: "YESSSSSSSS",
-    content2: "YESSSSSSSS",
-  },
-  {
-    id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
     content: "YESSSSSSSS",
     content2: "YESSSSSSSS",
   },

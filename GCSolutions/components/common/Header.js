@@ -1,9 +1,10 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
+import { Logo, TitleLogo } from "./Title"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -17,9 +18,9 @@ const Header = () => {
     <>
       <header>
         <div className='container'>
-          <div className='logo'>
+          <div>
             <Link href='/'>
-              <TitleLogo title='GCS' caption='' className='logomin' />
+              <Logo/>
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>

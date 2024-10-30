@@ -1,5 +1,6 @@
 import React from "react"
 import { Title, TitleLogo } from "./common/Title"
+import Link from "next/link"
 
 const Banner = () => {
   return (
@@ -7,11 +8,13 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <Title title='We are looking forward to start a new project' /> <br />
-            <TitleLogo title='Lets take your business to the next level!' />
+            <Title title='Contacter nous, et faites nous part de vos ambitions' /> <br />
+            <TitleLogo title='Laissez nous !' />
           </div>
           <div>
-            <button className='button-primary'>Request a call-back</button>
+            <Link href='/contact'>
+            <button className='button-primary'>Demnader une consultation</button>
+            </Link>
           </div>
         </div>
       </section>

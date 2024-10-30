@@ -15,10 +15,10 @@ const SinglePost = () => {
       <Head>
         <title>{post.title}</title>
       </Head>
-      <section className='post-details bg-top'>
+      <section className='post-details'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='TIPS & TRICKS / JANUARY 12, 2022' /> <br />
+            <TitleSm title={post.title} /> <br />
             <br />
             <Title title={post.title} className='title-bg' />
             <div className='img py'>
@@ -51,3 +51,4 @@ const SinglePost = () => {
 }
 
 export default SinglePost
+

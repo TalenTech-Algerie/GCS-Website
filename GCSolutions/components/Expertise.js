@@ -2,6 +2,7 @@ import React from "react"
 import { Title } from "./common/Title"
 import { expertise } from "@/assets/data/dummydata"
 import { Card } from "./common/Card"
+import Link from "next/link"
 
 const Expertise = () => {
   return (
@@ -9,8 +10,9 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <Title title='Notre expértise' />
+            <p>Former des professionnels qualifiés garantit non seulement la performance et la fiabilité des systèmes, mais aussi la sécurité des opérations, tout en maximisant les bénéfices environnementaux et économiques de ces nouvelles technologies.
+            </p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

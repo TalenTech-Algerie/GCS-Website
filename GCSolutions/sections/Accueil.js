@@ -6,7 +6,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 const Accueil = () => {
   return (
     <>
-      <section className='agency'>
+      <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='Accueil - Green Cooling Solutions' /> <br />
@@ -43,7 +43,7 @@ const Accueil = () => {
               <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
-              <TitleSm title='Our mission' />
+              <TitleSm title='Notre Mission' />
               <br />
               <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
             </div>

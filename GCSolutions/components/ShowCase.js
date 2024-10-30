@@ -15,11 +15,11 @@ const ShowCase = () => {
           </div>
           <div className='hero-content grid-3 py'>
             {showcase.map((item) => (
-              <Card data={item} key={item.id} />
+              <Card data={item} key={item.id} path="showcase"/>
             ))}
           </div>
           <div className='card links'>
-            <Link href='/'>
+            <Link href='/about'>
               VIEW ALL CASES <HiOutlineArrowRight className='link-icon' />
             </Link>
           </div>

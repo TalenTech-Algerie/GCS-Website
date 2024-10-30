@@ -1,26 +1,36 @@
-import React from "react"
-import { Title } from "./common/Title"
-import { brand } from "@/assets/data/dummydata"
-
+import React from "react";
+import Slider from "react-slick"; 
+import { Title } from "./common/Title";
+import { brand } from "@/assets/data/dummydata";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"; 
 const Brand = () => {
-  return (
-    <>
-      <section className='brand'>
-        <div className='container'>
-          <div className='heading-title'>
-            <Title title='WE ARE PROUD TO WORK WITH THESE COMPANIES' />
-          </div>
-          <div className='brand-content grid-6 py'>
-            {brand.map((item) => (
-              <div className='images' key={item.id}>
-                <img src={item.cover} alt={item.id} width='100%' height='100%' />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </>
-  )
-}
+  const settings = {
+    infinite: true,         
+    speed: 3000,            
+    slidesToShow: 5,        
+    slidesToScroll: 1,      
+    autoplay: true,        
+    autoplaySpeed: 0,    
+    cssEase: "linear",      
+  };
 
-export default Brand
+  return (
+    <section className="brand">
+      <div className="container">
+        <div className="heading-title">
+          <Title title="Nos partenaires" />
+        </div>
+        <Slider {...settings} className="brand-content py">
+          {[...brand, ...brand].map((item) => (
+            <div className="images" key={item.id}>
+              <img src={item.cover} alt={item.id} width="60%" height="60%" />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
+  );
+};
+
+export default Brand;

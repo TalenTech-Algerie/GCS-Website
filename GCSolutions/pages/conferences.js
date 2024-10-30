@@ -5,7 +5,7 @@ const ConferencesPage = () => {
   return (
     <>
       <Head>
-        <title>Conferences - Green Cooling Solutions</title>
+        <title>Conferences - GC Solutions</title>
       </Head>
       <Conferences />
     </>
