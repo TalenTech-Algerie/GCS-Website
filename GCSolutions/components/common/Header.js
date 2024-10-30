@@ -19,34 +19,36 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='Talentech' caption='' className='logomin' />
+              <TitleLogo title='GCS' caption='' className='logomin' />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
-              Home
+              Accueil
             </Link>
-            <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+            <Link href='/about' className={activeLink == "/about" ? "activeLink" : "none"}>
+              About Us
             </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
-              Team
+            <Link href='/formation' className={activeLink == "/formation" ? "activeLink" : "none"}>
+              Formation
             </Link>
-            <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
-              Services
+            <Link href='/installation' className={activeLink == "/installation" ? "activeLink" : "none"}>
+              Installation
             </Link>
-            <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Showcase
+            <Link href='/audit' className={activeLink == "/audit" ? "activeLink" : "none"}>
+              Audit
             </Link>
-            <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
-              Blog
+            <Link href='/conferences' className={activeLink == "/conferences" ? "activeLink" : "none"}>
+              Conferences
+            </Link>
+            <Link href='/bureau' className={activeLink == "/bureau" ? "activeLink" : "none"}>
+              Bureau d'etude
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className='button-primary'>book a consultation</button>
           </nav>
-          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
+          <button className="toggle-button" onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
       </header>
     </>

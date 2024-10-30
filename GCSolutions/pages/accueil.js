@@ -1,15 +1,15 @@
 import { Agency } from "@/sections"
 import Head from "next/head"
 
-const AgencyPage = () => {
+const AccueilPage = () => {
   return (
     <>
       <Head>
-        <title>About Agency</title>
+        <title>About GCS</title>
       </Head>
       <Agency />
     </>
   )
 }
 
-export default AgencyPage
+export default AccueilPage

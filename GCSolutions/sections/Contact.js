@@ -5,14 +5,18 @@ import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import { useState } from 'react';
+
 
 const Contact = () => {
+
+//cffa2d935845e21c76aab7cbb6a90498-72e4a3d5-16109ed8
   return (
     <>
-      <section className='contact bg-top'>
+      <section className='contact'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='CONTACT' /> <br />
+            <TitleSm title='CONTACT - Green Cooling solutions' /> <br />
             <br />
             <Title title="Let's start right now!" className='title-bg' />
           </div>
@@ -37,7 +41,7 @@ const Contact = () => {
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
                   <h3>hr@dream-theme.com</h3>
-                  <span>Career at Seven Creative</span>
+                  <span>Career at Green Cooling Solutions</span>
                 </div>
               </div>
               <ul>
@@ -55,7 +59,7 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className='right w-70 bg-white'>
+            <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
 
@@ -63,28 +67,28 @@ const Contact = () => {
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
-                    <input type='text' />
+                    <input type='text' placeholder="Enter your name" />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' />
+                    <input type='text' placeholder="Enter your email" />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>your budget</span>
-                    <input type='text' />
+                    <input type='text' placeholder="Enter your budget" />
                   </div>
                   <div className='inputs'>
                     <span>timeframe</span>
-                    <input type='text' />
+                    <input type='text' placeholder="Enter your timeframe" />
                   </div>
                 </div>
                 <div className='inputs'>
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea cols='30' rows='10'></textarea>
+                  <textarea cols='30' rows='10' placeholder="Tell us more"></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button type="submit" className='button-primary'>Submit</button>
               </form>
             </div>
           </div>

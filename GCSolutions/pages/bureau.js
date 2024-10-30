@@ -1,4 +1,4 @@
-import Services from "@/sections/Services"
+import Services from "@/sections/Installation"
 import Head from "next/head"
 import React from "react"
 
@@ -6,7 +6,7 @@ const services = () => {
   return (
     <>
       <Head>
-        <title>Team - 7Creative</title>
+        <title>Bureau d'etude - Green Solutions</title>
       </Head>
       <Services />
     </>

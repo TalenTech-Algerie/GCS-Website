@@ -3,15 +3,15 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
-const ShowCase = () => {
+function Formation () {
   return (
     <>
-      <section className='showcase bg-top'>
+      <section className='showcase'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SHOWCASE' /> <br />
+            <TitleSm title='Formation - Green Cooling Solutions' /> <br />
             <br />
-            <Title title='Fresh ideas. Bold design. Smart realisation.' className='title-bg' />
+            <Title title='Former pour un future plus Vert' className='title-bg' />
           </div>
           <br />
           <br />
@@ -29,4 +29,4 @@ const ShowCase = () => {
   )
 }
 
-export default ShowCase
+export default Formation

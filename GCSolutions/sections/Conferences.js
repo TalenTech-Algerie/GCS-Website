@@ -4,15 +4,15 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
-const Blog = () => {
+const Conferences = () => {
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='agency'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='BLOG' /> <br />
+            <TitleSm title='Conferences - Green Cooling Solutions' /> <br/>
             <br />
-            <Title title='Our views on marketing, design & technology' />
+            <Title title='Notre presence international' />
           </div>
           <BlogCard />
         </div>
@@ -21,4 +21,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Conferences;

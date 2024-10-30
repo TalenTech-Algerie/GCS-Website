@@ -3,10 +3,10 @@ import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
 
-const Services = () => {
+const Installation = () => {
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='agency'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='SERVICES' /> <br />
@@ -24,4 +24,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Installation

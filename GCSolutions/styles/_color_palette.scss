@@ -1,9 +1,10 @@
-$indigo: #845aff;
+$indigo: #0dd61e;
 $white: #000000;
 $dark: #ffffff; //080e10
-$green: #005cdc; //00dc93
-$gradient: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgb(255, 255, 255) 100%); //rgba(67, 39, 158, 1) 100%
-$gradient2: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255, 1) 100%);
+$green: #036e28d2; //00dc93
+$gradient: linear-gradient(203deg, rgb(8, 255, 28) 0%, rgb(255, 255, 255) 100%); //rgba(67, 39, 158, 1) 100%
+$gradient2: linear-gradient(250deg, rgb(7, 88, 91) 24%, rgb(7, 53, 3) 100%);
+$gradient3: linear-gradient(135deg, #f0f0f0, #e0e0e0);
 
 .green {
   color: $green;
@@ -11,3 +12,4 @@ $gradient2: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255
 .indigo {
   color: $indigo;
 }
+

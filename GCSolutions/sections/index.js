@@ -1,8 +1,8 @@
 import Hero from "./Hero"
-import Agency from "./Agency"
-import ShowCase from "./ShowCase"
-import Team from "./Team"
-import Blog from "./Blog"
+import Accueil from "./Accueil"
+import ShowCase from "./Formation"
+import Blog from "./About"
 import Contact from "./Contact"
+import Conferences from "./Conferences"
 
-export { Hero, Agency, Team, ShowCase, Blog, Contact }
+export { Hero, Accueil, ShowCase, Blog, Contact, Conferences }

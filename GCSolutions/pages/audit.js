@@ -1,13 +1,16 @@
-import { Hero } from "@/sections"
+import Services from "@/sections/Installation"
 import Head from "next/head"
+import React from "react"
 
-export default function Home() {
+const audit = () => {
   return (
     <>
       <Head>
         <title>Green Cooling Solutions</title>
       </Head>
-      <Hero />
+      <Services />
     </>
   )
 }
+
+export default audit

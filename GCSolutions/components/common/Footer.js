@@ -19,42 +19,36 @@ const Footer = () => {
               <br />
               <h3>+213 797 78 31 80</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <button className='button-primary'>Demander une consultation</button>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>Accueil</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/about'>About Us</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
-              </li>
-              <li>
-                <Link href='/'>Demo design system</Link>
-              </li>
-              <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/'></Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/formation'>Formation</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/installation'>Installation</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/bureau'>Bureau d'etude</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/audit'>Audit</Link>
               </li>
             </ul>
             <ul>

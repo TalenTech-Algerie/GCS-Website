@@ -85,7 +85,13 @@
       height: 100%;
       object-fit: cover;
       border-radius: 50px 0 50px 0;
+      transition: transform 0.3s ease,box-shadow 0.3s ease;
+      &:hover {
+        transform: translate(10px, -5px);
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+      }
     }
+
   }
   a {
     display: flex;

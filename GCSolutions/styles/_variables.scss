@@ -48,3 +48,14 @@ p {
 .mr {
   margin-left: 50px;
 }
+/* Hide the toggle button on large screens */
+.toggle-button {
+  display: inline-block; /* Show by default */
+}
+
+@media (min-width: 768px) {
+  .toggle-button {
+    display: none; /* Hide on screens 768px and wider */
+  }
+}
+
