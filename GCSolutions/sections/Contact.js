@@ -36,14 +36,12 @@ const Contact = () => {
     const result = await response.json();
     alert(result.message || result.error);
   };
-
-//cffa2d935845e21c76aab7cbb6a90498-72e4a3d5-16109ed8
   return (
     <>
       <section className='contact'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='CONTACT - Green Cooling solutions' /> <br />
+            <TitleSm title='CONTACT - Green Cooling Innovation' /> <br />
             <br />
             <Title title="Let's start right now!" className='title-bg' />
           </div>
@@ -88,33 +86,37 @@ const Contact = () => {
             </div>
             <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />
-              <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
+              <p className='desc-p'>Des questions? Remplissez le formulaire pour avoir nos propositions </p>
 
-              <form onSubmit={handleSubmit}>
+              <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="0c2849f4-abea-4a5c-956c-12a150be255c" />
+              <input type="hidden" name="subject" value="Nouveau contact de votre siteweb Green Cooling Innovation!" />
+              <input type="hidden" name="redirect" value="http://localhost:3000//success" />
               <div className='grid-2'>
                 <div className='inputs'>
                   <span>Nom</span>
-                  <input placeholder="Entrer votre nom" type='text' name='name' onChange={handleChange} required />
+                  <input id="name" placeholder="Entrer votre nom" type='text' name='name' onChange={handleChange} required />
                 </div>
                 <div className='inputs'>
                   <span>Email</span>
-                  <input placeholder="Entrer votre address mail" type='email' name='email' onChange={handleChange} required />
+                  <input id="name" placeholder="Entrer votre address mail" type='email' name='email' onChange={handleChange} required />
                 </div>
               </div>
               <div className='grid-2'>
                 <div className='inputs'>
                   <span>Votre Budget</span>
-                  <input placeholder="Entrer votre budget" type='text' name='budget' onChange={handleChange} required />
+                  <input id="budget" placeholder="Entrer votre budget" type='text' name='budget' onChange={handleChange} required />
                 </div>
                 <div className='inputs'>
                   <span>Timeframe</span>
-                  <input placeholder="Entrer votre valabilite" type='text' name='timeframe' onChange={handleChange} required />
+                  <input id="timeframe" placeholder="Entrer votre valabilite" type='text' name='timeframe' onChange={handleChange} required />
                 </div>
               </div>
               <div className='inputs'>
                 <span>Dites nous plus sur votre projet*</span>
-                <textarea placeholder="Entrer des details sur votre raison de contact" name='projectDetails' cols='30' rows='10' onChange={handleChange} required></textarea>
+                <textarea id="message" placeholder="Entrer des details sur votre raison de contact" name='projectDetails' cols='30' rows='10' onChange={handleChange} required></textarea>
               </div>
+              <div><input type="checkbox" name="botcheck" class="hidden" style={{display: 'none'}}/></div>
               <button type="submit" className='button-primary'>Submit</button>
             </form>
             </div>

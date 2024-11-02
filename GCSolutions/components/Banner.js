@@ -9,7 +9,7 @@ const Banner = () => {
         <div className='container'>
           <div>
             <Title title='Contacter nous, et faites nous part de vos ambitions' /> <br />
-            <TitleLogo title='Laissez nous !' />
+            <TitleLogo title='Laissez nous faire!' />
           </div>
           <div>
             <Link href='/contact'>

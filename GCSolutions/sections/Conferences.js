@@ -8,7 +8,7 @@ const Conferences = () => {
       <section className='agency'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Conferences - Green Cooling Solutions' /> <br/>
+            <TitleSm title='Conferences - Green Cooling Innovation' /> <br/>
             <br />
             <Title title='Notre presence international' />
           </div>

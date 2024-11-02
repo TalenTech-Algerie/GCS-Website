@@ -5,7 +5,7 @@ const ConferencesPage = () => {
   return (
     <>
       <Head>
-        <title>Conferences - GC Solutions</title>
+        <title>Conferences - GC Innovation</title>
       </Head>
       <Conferences />
     </>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About - Green Cooling Solutions</title>
+        <title>About - Green Cooling Innovation</title>
       </Head>
       <Blog />
     </>

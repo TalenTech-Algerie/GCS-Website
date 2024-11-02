@@ -6,7 +6,7 @@ const services = () => {
   return (
     <>
       <Head>
-        <title>Installation - Green Cooling Solutions</title>
+        <title>Installation - Green Cooling Innovation</title>
       </Head>
       <Services />
     </>

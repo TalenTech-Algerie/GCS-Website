@@ -9,7 +9,7 @@ const Accueil = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Accueil - Green Cooling Solutions' /> <br />
+            <TitleSm title='Accueil - Green Cooling Innovation' /> <br />
             <br />
             <Title title='The last digital agency you will ever need!' className='title-bg' />
           </div>

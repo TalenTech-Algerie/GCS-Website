@@ -9,7 +9,7 @@ const About = () => {
       <section className='agency'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT Green Cooling Solutions' /> <br />
+            <TitleSm title='ABOUT Green Cooling Innovation' /> <br />
             <br />
             <Title title='The most innovative cooling company in the industry!' className='title-bg' />
           </div>

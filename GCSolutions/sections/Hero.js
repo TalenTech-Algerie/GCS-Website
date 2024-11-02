@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-        <Title title='Green Cooling Solutions' />
+        <Title title='Green Cooling Innovation' />
           <h1 className='hero-title'>Pour Un Future<br/> Plus Vert</h1>
           <div className='sub-heading white-shadow' >
             <TitleSm title='FORMATION' /> <span>.</span>
@@ -43,7 +43,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
-      <ShowCase />
+      {/* <ShowCase /> */}
       <Brand />
 
       <div className='text-center'>

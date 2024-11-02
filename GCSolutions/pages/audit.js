@@ -6,7 +6,7 @@ const audit = () => {
   return (
     <>
       <Head>
-        <title>Green Cooling Solutions</title>
+        <title>Green Cooling Innovation</title>
       </Head>
       <Services />
     </>

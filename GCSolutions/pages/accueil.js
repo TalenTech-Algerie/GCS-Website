@@ -5,7 +5,7 @@ const AccueilPage = () => {
   return (
     <>
       <Head>
-        <title>About GCS</title>
+        <title>About GCI</title>
       </Head>
       <Agency />
     </>
