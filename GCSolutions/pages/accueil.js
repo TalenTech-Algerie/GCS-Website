@@ -1,4 +1,4 @@
-import { Agency } from "@/sections"
+import { Accueil, Agency } from "@/sections"
 import Head from "next/head"
 
 const AccueilPage = () => {
@@ -7,7 +7,7 @@ const AccueilPage = () => {
       <Head>
         <title>About GCI</title>
       </Head>
-      <Agency />
+      <Accueil />
     </>
   )
 }

@@ -10,9 +10,9 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Notre expértise' />
-            <p>Former des professionnels qualifiés garantit non seulement la performance et la fiabilité des systèmes, mais aussi la sécurité des opérations, tout en maximisant les bénéfices environnementaux et économiques de ces nouvelles technologies.
-            </p>
+            {/* <Title title='Notre expértise' /> */}
+            {/* <p>Former des professionnels qualifiés garantit non seulement la performance et la fiabilité des systèmes, mais aussi la sécurité des opérations, tout en maximisant les bénéfices environnementaux et économiques de ces nouvelles technologies.
+            </p> */}
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

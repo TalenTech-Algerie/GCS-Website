@@ -1,7 +1,8 @@
 import Link from "next/link"
 import { Logo, LogoExtended, TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { RiWhatsappFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -66,7 +67,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
+                    <RiWhatsappFill size={25} />
                   </Link>
                 </li>
                 <li>

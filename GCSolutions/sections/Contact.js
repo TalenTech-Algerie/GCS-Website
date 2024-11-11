@@ -87,29 +87,39 @@ const Contact = () => {
             <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Des questions? Remplissez le formulaire pour avoir nos propositions </p>
-
               <form action="https://api.web3forms.com/submit" method="POST">
+              <div className='inputs right'>
+                <span>Domaine</span>
+                <select id="domaine" name="domaine" onChange={handleChange} required>
+                  <option value="" disabled selected>Choisissez votre domaine</option>
+                  <option value="Entreprise">Entreprise</option>
+                  <option value="Technicien">Technicien</option>
+                  <option value="Fabricant">Fabricant</option>
+                  <option value="Formateur">Formateur</option>
+                  <option value="Autre">Autre</option>
+                </select>
+              </div>
               <input type="hidden" name="access_key" value="0c2849f4-abea-4a5c-956c-12a150be255c" />
               <input type="hidden" name="subject" value="Nouveau contact de votre siteweb Green Cooling Innovation!" />
               <input type="hidden" name="redirect" value="http://localhost:3000//success" />
               <div className='grid-2'>
                 <div className='inputs'>
                   <span>Nom</span>
-                  <input id="name" placeholder="Entrer votre nom" type='text' name='name' onChange={handleChange} required />
+                  <input id="nom" placeholder="Entrer votre nom" type='text' name='name' onChange={handleChange} required />
                 </div>
                 <div className='inputs'>
-                  <span>Email</span>
-                  <input id="name" placeholder="Entrer votre address mail" type='email' name='email' onChange={handleChange} required />
+                  <span>Prenom</span>
+                  <input id="prenom" placeholder="Entrer votre nom" type='text' name='name' onChange={handleChange} required />
                 </div>
               </div>
               <div className='grid-2'>
+              <div className='inputs'>
+                  <span>Email</span>
+                  <input id="email" placeholder="Entrer votre address mail" type='email' name='email' onChange={handleChange} required />
+                </div>
                 <div className='inputs'>
                   <span>Votre Budget</span>
                   <input id="budget" placeholder="Entrer votre budget" type='text' name='budget' onChange={handleChange} required />
-                </div>
-                <div className='inputs'>
-                  <span>Timeframe</span>
-                  <input id="timeframe" placeholder="Entrer votre valabilite" type='text' name='timeframe' onChange={handleChange} required />
                 </div>
               </div>
               <div className='inputs'>

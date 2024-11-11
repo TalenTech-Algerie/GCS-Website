@@ -2,6 +2,7 @@ import Banner from "@/components/Banner"
 import Brand from "@/components/Brand"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleSm } from "@/components/common/Title"
+import { home } from "@/assets/data/dummydata"
 
 const About = () => {
   return (
@@ -20,19 +21,14 @@ const About = () => {
               <p className='desc-p'>Forts de 25 ans d'expérience dans le froid commercial, industriel, et la climatisation, nous mettons notre expertise au service de solutions innovantes et formons les professionnels pour assurer l'excellence dans le métier.
                 Former des professionnels qualifiés garantit non seulement la performance et la fiabilité des systèmes, mais aussi la sécurité des opérations, tout en maximisant les bénéfices environnementaux et économiques de ces nouvelles technologies.
 </p>
-              <div className='grid-3'>
-                <div className='box'>
-                  <h1 className='indigo'>25+</h1>
-                  <h3>Years of experience</h3>
-                </div>
-                <div className='box'>
-                  <h1 className='indigo'>50+</h1>
-                  <h3>Successful cases</h3>
-                </div>
-                <div className='box'>
-                  <h1 className='indigo'>5+</h1>
-                  <h3>Succes industriel</h3>
-                </div>
+              <div className='hero-content grid-4'>
+                          {home.map((item, i) => (
+                            <div className='box' key={i}>
+                              <span className='green'>{item.icon}</span> <br />
+                              <br />
+                              <h3>{item.title}</h3>
+                            </div>
+                          ))}
               </div>
             </div>
             <div className='right w-40 ml'>
@@ -53,8 +49,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <Brand />
       <Banner />
       <br />
       <br />

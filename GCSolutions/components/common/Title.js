@@ -12,7 +12,7 @@ export const Logo = ()=>{
 }
 
 export const LogoExtended=()=>{
-  return <img width={400} height={150} src="/logoextended.svg" alt='Green Cooling Solutions Logo'/>
+  return <img width={200} height={150} src="/gcslogoextended.png" alt='Green Cooling Innovation Logo'/>
 }
 
 export const TitleSm = ({ title }) => {

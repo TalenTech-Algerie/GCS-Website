@@ -138,6 +138,7 @@ export const blogdata = [
     date: "JANUARY 12, 2023",
     content1: "YESSSSSSSS",
     content2: "YESSSSSSSS",
+    video: "https://www.youtube.com/embed/7e90gBu4pas",
   },
   {
     id: 2,
@@ -147,6 +148,7 @@ export const blogdata = [
     date: "OCTOBER 20, 2023",
     content: "YESSSSSSSS",
     content2: "YESSSSSSSS",
+    video: "https://www.youtube.com/embed/7e90gBu4pas",
   },
 ]
 export const teamdata = [

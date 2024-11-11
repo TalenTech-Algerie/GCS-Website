@@ -308,6 +308,21 @@ footer {
       width: 100%;
       padding: 18px;
     }
+    .inputs select {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      background-color: #fff;
+      transition: border-color 0.3s ease-in-out;
+    }
+    
+    .inputs select:focus {
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+    }
   }
 }
 

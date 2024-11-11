@@ -3,18 +3,7 @@ import Brand from "@/components/Brand"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleSm } from "@/components/common/Title"
 
-const Formation = () => {
-
-  const handleDownload = () => {
-    const fileUrl = '/Curiculum.pdf'; // Relative path to the PDF file in the public folder
-    const fileName = 'Curiculum.pdf'; // Name for the downloaded file
-
-    // Create a temporary link element
-    const link = document.createElement('a');
-    link.href = fileUrl;
-    link.download = fileName;
-    link.click();
-  };
+const Audit = () => {
 
   return (
     <>
@@ -45,7 +34,6 @@ const Formation = () => {
               <br />
               <p className='misson-p'>Télécharger notre curiculum de formation complet pratique & sur site</p>
               <br />
-              <button onClick={handleDownload} className='button-primary'>Télécharger</button>
             </div>
             </div>
         </div>
@@ -59,4 +47,4 @@ const Formation = () => {
   )
 }
 
-export default Formation
+export default Audit

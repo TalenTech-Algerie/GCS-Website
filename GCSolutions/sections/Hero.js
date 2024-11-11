@@ -13,43 +13,34 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
         <Title title='Green Cooling Innovation' />
-          <h1 className='hero-title'>Pour Un Future<br/> Plus Vert</h1>
+        <br/>
           <div className='sub-heading white-shadow' >
             <TitleSm title='FORMATION' /> <span>.</span>
-            <TitleSm title='INSTALLATION' /> <span>.</span>
+            <TitleSm title='AUDIT & EXPERTISE' /> <span>.</span>
             <TitleSm title='CONFERENCES' /> <span>.</span>
-            <TitleSm title='AUDITION' />
+            <TitleSm title='INSTALLATION' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
-          <div className='heading-title'>
+          {/* <div className='heading-title'>
             <Title title='Green Cooling Solution - Formez des experts, bâtir un avenir plus vert' />
             <p>Nous mettons notre expertise au service de solutions innovantes et formons les professionnels pour assurer l'excellence dans le métier.
             </p>
-          </div>
-          <div className='hero-content grid-4'>
-            {home.map((item, i) => (
-              <div className='box' key={i}>
-                <span className='green'>{item.icon}</span> <br />
-                <br />
-                <h3>{item.title}</h3>
-              </div>
-            ))}
-          </div>
+          </div> */}
+          
         </div>
       </section>
       <Expertise />
       <Banner />
       <Testimonial />
-      {/* <ShowCase /> */}
       <Brand />
 
-      <div className='text-center'>
+      {/* <div className='text-center'>
         <Title title='Notre presence' />
       </div>
-      <BlogCard />
+      <BlogCard /> */}
     </>
   )
 }

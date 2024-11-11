@@ -37,13 +37,10 @@ const Header = () => {
               Installation
             </Link>
             <Link href='/audit' className={activeLink == "/audit" ? "activeLink" : "none"}>
-              Audit
+              Audit & Expertise
             </Link>
             <Link href='/conferences' className={activeLink == "/conferences" ? "activeLink" : "none"}>
               Conferences
-            </Link>
-            <Link href='/bureau' className={activeLink == "/bureau" ? "activeLink" : "none"}>
-              Bureau d'etude
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact

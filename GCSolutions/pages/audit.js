@@ -1,3 +1,4 @@
+import { Audit } from "@/sections"
 import Services from "@/sections/Installation"
 import Head from "next/head"
 import React from "react"
@@ -8,7 +9,7 @@ const audit = () => {
       <Head>
         <title>Green Cooling Innovation</title>
       </Head>
-      <Services />
+      <Audit />
     </>
   )
 }
